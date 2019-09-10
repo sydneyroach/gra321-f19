@@ -1,0 +1,27 @@
+/* Styles for Project 5 */
+body {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .45px;
+    line-height: 1.5;
+    padding: 12%;
+}
+
+h1 {
+    color: darkgreen;
+    font-weight: 700;
+}
+
+h2 {
+     font-weight: 700;
+}
+
+img {
+    max-width: 100%;
+}
+    
+ul {
+     margin-bottom:2rem;
+    }
+}
