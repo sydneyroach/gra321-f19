@@ -150,6 +150,11 @@ h3{
     font-size: 25px;
     font-weight:;
     text-align: center;
+    padding-left: 0px;
+    padding-right: 30px;
+    margin-left: -20px;
+    
+
 }
 
 header, .full-width {
