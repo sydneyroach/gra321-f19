@@ -27,9 +27,10 @@ body {
 
 h1{
   display: block;
-  color: #ffff;
+  color: #fff;
   padding: 20px 20px;
-    padding-bottom: 35px;
+    padding-bottom: 20px;
+    padding-top: 20px;
   text-decoration: none;
   background-color: black;
 margin-top:0px;
@@ -43,14 +44,13 @@ p1{
     padding-bottom: 20px;
   text-decoration: none;
   background-color: black;
-  margin-top: -40px;
+  margin-top: -20px;
 margin-left: -8px;
 margin-right: -8px;
 }
 ul {
   list-style-type: none;
-  margin: 0
-max-width: 100%;
+  margin: 0;
 }
 
 .full-width {
@@ -67,11 +67,10 @@ ul {
 }
 ul {
   list-style-type: none;
-
   margin: 0;
   padding: 0;
   background-color: #ffff;
-    align-content: center;
+align-content: center;
 }
 li {
     list-style-type: none;
@@ -81,30 +80,33 @@ ul1 {
   margin: 0;
   padding: 0;
   background-color: #000;
-    align-content: center;
+  align-content: center;
 }
 li a {
   display: block;  
   color: #000;
-  padding: 8px 16px;
+  padding: 16px 16px;
   text-decoration: none;
-align-content: center;
+  align-content: center;
+  font-size: 40px;
+  margin-top: -20px;
 }
+
 ul1 {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
   background-color: #000;
 }
 li1 a {
   display: block;
   color: #ffff;
-  padding: 8px 16px;
+  padding: 16px 16px;
   text-decoration: none;
   background-color: black;
-    align-content:center;
-    
+  align-content:center;
+  font-size: 40px;
+  margin-top: -20px;
     
       
 }
@@ -122,7 +124,6 @@ li1 a {
   justify-content: center;
   align-items: center;
 }
-
 li a:hover {
   background-color: #654321;
   color: #b29379;
@@ -130,7 +131,6 @@ li a:hover {
 li1 a:hover {
   background-color: #654321;
   color: #b29379;
-
 }
 h3{
     text-decoration: underline;
@@ -142,8 +142,6 @@ h3{
     padding-left: 0px;
     padding-right: 30px;
     margin-left: -20px;
-    
-
 }
 
 header, .full-width {
@@ -240,7 +238,7 @@ header, .full-width {
     padding-bottom: 0px;
     text-align: center;
     font-size: 44px;
-    margin-top: 400px;
+    margin-top: 40px;
 
 
 }
@@ -290,11 +288,18 @@ text-align: center;
 .days {
     font-size: 20px;
     text-align: center;
+    align-content: center;
     padding-bottom: 10px;
     margin-top: 10px;
     font-weight: 100;
-    
+}
+h5 {background:#654321;
+    color:white;
+    padding: 10px 20px 10px 20px;
+    font-size: 40px;
 
+        
+    }
 }
 .menutitle {
     font-size: 20px;
@@ -314,4 +319,78 @@ text-align: center;
 .storypara1 {
     color:black;
 }
+.container {
+  background-image: url('https://i.postimg.cc/BQNsJcRN/special.jpg');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+h6 {
+  color: black;
+  background: white;
+  font-size:30px;
+  text-align: center;
+  text-decoration: underline;
+  padding: 50px 50px 50px 50px;
+    
+}
+
+.product {
+    padding-left: 80px;
+}
+.small {
+    padding-left: 0
+}
+
+
+
+li {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-areas: 
+    "product product product product"
+    "s m l .";
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  padding: 1rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 680px) {
+  li {
+    grid-template-areas:
+      "product s m l";
+  }
+}
+
+.product {
+  background: white;
+  grid-area: product;
+    font-size: 15px;
+    text-align: left;
+}
+.small {
+  background: white;
+  grid-area: s;
+    font-size: 15px;
+     text-align: left;
+}
+.medium {
+  background: white;
+  grid-area: m;
+font-size: 15px;
+text-align: left;
+}
+.large {
+  background: white;
+  grid-area: l;
+  font-size: 15px;
+text-align: left;
+}
+ul {
+  width: 100%;
+}
+
 
