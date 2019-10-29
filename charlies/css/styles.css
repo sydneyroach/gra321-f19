@@ -12,7 +12,6 @@ img {
     margin-right: -10px;
 }
 img1 {
-    max-width: 100%;
     align-content: center;
 
 
@@ -284,7 +283,7 @@ text-align: center;
 }
 .info {
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
