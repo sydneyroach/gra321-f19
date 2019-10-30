@@ -287,15 +287,18 @@ h4 {
 .info {
     text-align: center;
     font-size: 15px;
+    padding-bottom: 30px;
+    padding-top: 20px;
 }
 
 
 .days {
-    color: #333;
+    background: black;
+    color: #fff;
     font-size: 20px;
     text-align: center;
-    padding-bottom: 10px;
-    margin-top: 10px;
+    padding-bottom: 15px;
+    margin-top: 0px;
     font-weight: 100;
 }
 h5 {background:#654321;
@@ -359,7 +362,6 @@ h6 {
     "product product product product"
     "s m l .";
   grid-template-columns: 2fr 1fr 1fr 1fr;
-  padding: 1rem;
   width: 100%;
 }
 
